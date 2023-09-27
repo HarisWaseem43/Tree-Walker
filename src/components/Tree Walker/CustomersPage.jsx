@@ -3,7 +3,7 @@ import Profile1 from "../../assets/Images/Profile1.png";
 import Profile2 from "../../assets/Images/Profile2.png";
 import Profile3 from "../../assets/Images/Profile3.png";
 
-const LandingPage5 = () => {
+const CustomersPage = () => {
   return (
     <div>
       <link
@@ -77,4 +77,4 @@ const LandingPage5 = () => {
   );
 };
 
-export default LandingPage5;
+export default CustomersPage;

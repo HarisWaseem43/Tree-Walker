@@ -4,7 +4,7 @@ import Vector from "../../assets/Images/Vector.png";
 import Ellipse from "../../assets/Images/Ellipse.png";
 import Check from "../../assets/Images/check.png";
 
-const LandingPage3 = () => {
+const HealthyStormPage = () => {
   return (
     <div>
       <div className="lg:flex">
@@ -78,4 +78,4 @@ const LandingPage3 = () => {
   );
 };
 
-export default LandingPage3;
+export default HealthyStormPage;

@@ -1,7 +1,7 @@
 import Climber from "../../assets/Images/Climber.png";
 import Rectangle from "../../assets/Images/Rectangle.png";
 
-const LandingPage4 = () => {
+const TreeWalker = () => {
   return (
     <div className="lg:flex">
       <div className="bg-white lg:w-[50%] xs:w-full">
@@ -33,4 +33,4 @@ const LandingPage4 = () => {
   );
 };
 
-export default LandingPage4;
+export default TreeWalker;

@@ -5,7 +5,7 @@ import MobileLogo from "../../assets/Images/MobileLogo.png";
 import GroupIcon from "../../assets/Images/GroupIcon.png";
 import MessageText from "../../assets/Images/Messagetext.png";
 
-const LandingPage1 = () => {
+const HomePage = () => {
   return (
     <div className="">
       <div className="relative">
@@ -38,4 +38,4 @@ const LandingPage1 = () => {
   );
 };
 
-export default LandingPage1;
+export default HomePage;

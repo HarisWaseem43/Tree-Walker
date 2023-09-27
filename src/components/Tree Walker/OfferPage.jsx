@@ -3,7 +3,7 @@ import OfferImg from "../../assets/Images/OfferImg.png";
 // import Circle from "../../assets/Images/Circle.png";
 import Page6 from "./Page6";
 
-const LandingPage7 = () => {
+const OfferPage = () => {
   return (
     <div>
       <div
@@ -80,4 +80,4 @@ const LandingPage7 = () => {
   );
 };
 
-export default LandingPage7;
+export default OfferPage;

@@ -5,7 +5,7 @@ import No2 from "../../assets/Images/2.png";
 import No3 from "../../assets/Images/3.png";
 import MessageText from "../../assets/Images/Messagetext.png";
 
-const LandingPage6 = () => {
+const HelpPage = () => {
   return (
     <div>
       <div className="lg:flex">
@@ -80,4 +80,4 @@ const LandingPage6 = () => {
   );
 };
 
-export default LandingPage6;
+export default HelpPage;

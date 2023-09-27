@@ -1,7 +1,7 @@
 import Card1 from "../../assets/Images/Card1.png";
 import Card2 from "../../assets/Images/Card2.png";
 
-const LandingPage2 = () => {
+const TreeMessageCard = () => {
   return (
     <>
       <h1 className="xs:pl-[3rem] xs:pr-[3rem] font-serif font-bold mt-[4rem] text-[38px] text-center">
@@ -41,4 +41,4 @@ const LandingPage2 = () => {
   );
 };
 
-export default LandingPage2;
+export default TreeMessageCard;
