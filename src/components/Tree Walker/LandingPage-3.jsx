@@ -36,11 +36,11 @@ const LandingPage3 = () => {
           <div className="lg:pl-[9rem] pl-[2rem]">
             <div className="flex mb-[1rem]">
               <img
-                className="xs:relative xs:top-[0.7rem] h-[30px]"
+                className="xs:relative xs:top-[0.7rem] sm:top-0 h-[30px]"
                 src={Ellipse}
               />
               <img
-                className="h-[18px] relative xs:top-[17px] top-[7px] left-[-24px]"
+                className="h-[18px] relative xs:top-[17px] sm:top-[8px] left-[-24px]"
                 src={Check}
               />
               <h1 className="text-white font-serif xs:text-[20px]">
@@ -49,11 +49,11 @@ const LandingPage3 = () => {
             </div>
             <div className="flex mb-[1rem]">
               <img
-                className="xs:relative xs:top-[0.7rem] h-[30px]"
+                className="xs:relative xs:top-[0.7rem] sm:top-0 h-[30px]"
                 src={Ellipse}
               />
               <img
-                className="h-[18px] relative xs:top-[17px] top-[7px] left-[-24px]"
+                className="h-[18px] relative xs:top-[17px] sm:top-[8px] left-[-24px]"
                 src={Check}
               />
               <h1 className="text-white font-serif xs:text-[20px]">

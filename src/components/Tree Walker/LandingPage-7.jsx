@@ -1,6 +1,6 @@
 import OfferImg from "../../assets/Images/OfferImg.png";
-import Tick from "../../assets/Images/Tick.png";
-import Circle from "../../assets/Images/Circle.png";
+// import Tick from "../../assets/Images/Tick.png";
+// import Circle from "../../assets/Images/Circle.png";
 import Page6 from "./Page6";
 
 const LandingPage7 = () => {
@@ -13,10 +13,10 @@ const LandingPage7 = () => {
           backgroundColor: "#268C76",
         }}
       >
-        <h1 className="text-white font-bold font-serif lg:pt-[6rem] text-[40px] xs:pl-[1rem] xs:pt-[3rem] lg:pl-[9rem] lg:pr-[19rem] pb-[1.5rem]">
+        <h1 className="text-white font-bold font-serif text-[40px] lg:pl-[9rem] xs:pl-[1rem] lg:pr-[19rem] xs:pt-[3rem] lg:pt-[6rem] pb-[1.5rem]">
           What we have to offer
         </h1>
-        <p className="text-[20px] text-white xs:pr-[1rem] xs:pl-[1rem] lg:pl-[9rem] lg:pr-[33rem] pb-[3rem]">
+        <p className="text-[20px] text-white xs:pr-[1rem] lg:pr-[33rem] xs:pl-[1rem] lg:pl-[9rem] pb-[3rem]">
           TreeWalker Arbor Care Is fully licensed and insured. We offer
           professional tree services in the greater Charlotte area. We provide
           everything from tree trimming and stump grinding to pest mitigation

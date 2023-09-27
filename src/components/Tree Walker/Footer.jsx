@@ -5,7 +5,7 @@ import Facebook from "../../assets/Images/Facebook.png";
 const Footer = () => {
   return (
     <>
-      <div className="xs:pl-[1rem] lg:px-[4rem] xs:mt-[5rem] lg:mt-[8rem] lg:flex justify-between">
+      <div className="lg:flex xs:pl-[1rem] lg:px-[4rem] xs:mt-[5rem] lg:mt-[8rem] justify-between">
         <span>
           <img className="xs:mb-[2rem]" src={LogoFooter} />
         </span>

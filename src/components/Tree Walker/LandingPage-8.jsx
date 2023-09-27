@@ -5,30 +5,40 @@ import SMS from "../../assets/Images/sms.png";
 
 const LandingPage8 = () => {
   return (
-    <div className="relative m-[1rem] mt-[2rem] lg:flex lg:m-[4rem]">
-      <div className="bg-[#268C76] lg:w-[100%] xs:w-[0%] rounded-l-[18px]">
-        <h1 className="xs:absolute xs:top-[2rem] xs:z-[99] xs:text-[29px] xs:ml-[1.4rem] lg:relative lg:top-[5rem] lg:left-[7rem] lg:text-[36px] text-white font-serif font-bold">
+    <div className="relative m-4 mt-8 lg:flex lg:m-8">
+      <div className="bg-[#268C76] lg:w-full xs:w-0 rounded-l-[18px]">
+        <h1 className="absolute xs:text-[28px] sm:text-[38px] md:text-[56px] lg:text-[38px] xs:top-[2rem] sm:top-[5rem] md:top-[5rem] lg:top-[5.8rem] left-[6rem] xs:left-[2rem] xs:z-99 text-white font-serif font-bold">
           Looking forward to hearing from you
-        </h1>{" "}
-        <div className="flex xs:absolute xs:top-[8rem] xs:z-[99] xs:ml-[1.4rem] lg:relative lg:top-[8rem] lg:left-[7rem] xs:text-[16px] lg:text-[20px] text-white">
-          <img className="xs:h-[25px] lg:h-[30px] mr-[1rem]" src={SMS} />
+        </h1>
+        <div className="absolute flex xs:text-[18px] sm:text-[24px] md:text-[30px] lg:text-[22px] xs:top-[8rem] sm:top-[14rem] md:top-[18rem] lg:top-[12rem] left-[6rem] xs:left-[2rem] xs:z-99 text-white">
+          <img
+            className="xs:h-[25px] sm:h-[34px] md:h-[40px] lg:h-[30px] mr-2"
+            src={SMS}
+            alt="SMS"
+          />
           <p>info@treewalkernc.com</p>
         </div>
-        <div className="flex xs:absolute xs:top-[10rem] xs:z-[99] xs:ml-[1.4rem] lg:relative lg:top-[8rem] lg:left-[7rem] xs:text-[16px] lg:text-[20px] text-white xs:mt-[0.3rem] lg:mt-[1rem]">
-          <img className="xs:h-[25px] lg:h-[30px] mr-[1rem]" src={Call} />
+        <div className="absolute flex xs:text-[18px] sm:text-[24px] md:text-[30px] lg:text-[22px] xs:top-[10rem] sm:top-[17rem] md:top-[22rem] lg:top-[14rem] left-[6rem] xs:left-[2rem] xs:z-99 text-white xs:mt-1 lg:mt-4">
+          <img
+            className="xs:h-[25px] lg:h-[30px] md:h-[40px] sm:h-[34px] mr-2"
+            src={Call}
+            alt="Call"
+          />
           <p>(980) 777-5224</p>
         </div>
-        <button className="flex xs:absolute xs:top-[13rem] xs:z-[99] xs:ml-[1.4rem]  bg-[#FF740A] lg:relative lg:top-[10rem] lg:left-[7rem] xs:px-[2.5rem] lg:px-[1.5rem] py-[0.5rem] xs:text-[14px] lg:text-[19px] text-white rounded-[10px]">
+        <button className="absolute flex bg-[#FF740A] xs:text-[12px] sm:text-[20px] md:text-[24px] lg:text-[19px] xs:top-[13rem] sm:top-[23rem] md:top-[28rem] lg:top-[20rem] left-[6rem] xs:left-[2rem] xs:px-8 lg:px-6 py-2 xs:mb-[22rem] md:mb-[16rem] lg:mb-[16rem] text-white rounded-[10px] ">
           <img
-            className="xs:h-[24px] lg:h-[30px] mr-[1rem]"
+            className="xs:h-[20px] sm:h-[34px] md:h-[40px] lg:h-[30px] mr-2"
             src={MessageText}
+            alt="MessageText"
           />
           Schedule your Free Evaluation Today
         </button>
       </div>
       <img
-        className="xs:w-[100%] bg-[#268C76] lg:rounded-r-[18px] xs:rounded-[18px]"
+        className="xs:w-full xs:rounded-[18px] bg-[#268C76] lg:rounded-r-[18px] lg:rounded-none"
         src={VectorTree}
+        alt="VectorTree"
       />
     </div>
   );

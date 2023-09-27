@@ -12,19 +12,19 @@ const LandingPage5 = () => {
       />
 
       <section
-        className="pt-[1rem] lg:pt-[3rem] pb-10 lg:pb-20 bg-[#F3F4F6] bg-no-repeat bg-cover "
+        className="pt-[1rem] lg:pt-[3rem] lg:pb-20 pb-10 bg-[#F3F4F6] bg-no-repeat bg-cover "
         style={{
           backgroundImage: `url(${PageBg})`,
           backgroundColor: "#268C76",
         }}
       >
-        <div className="text-[30px] pl-[1.4rem] pr-[1rem] pt-[2rem] lg:text-center lg:text-[38px] text-white font-serif font-bold pb-[3rem]">
+        <div className="lg:text-center lg:text-[38px] text-[30px] pl-[1.4rem] pr-[1rem] pt-[2rem] text-white font-serif font-bold pb-[3rem]">
           What our customers have to say…
         </div>
         <div className="container">
-          <div className="flex flex-wrap -mx-4">
-            <div className="w-full md:w-1/2 xl:w-1/3 lg:px-4">
-              <div className="xs:w-[385px] xs:ml-[-2.5rem] bg-white rounded-lg overflow-hidden mb-10">
+          <div className="lg:flex flex-wrap -mx-4">
+            <div className="w-full xl:w-1/3 md:w-full lg:px-4">
+              <div className=" bg-white rounded-lg overflow-hidden mb-10">
                 <div className="p-8 sm:p-9 md:p-7 xl:p-9">
                   <p className="text-base leading-relaxed mb-7">
                     “Storm knocked a dead tree on my 69 Buick. Lesson learned...
@@ -37,8 +37,8 @@ const LandingPage5 = () => {
                 </div>
               </div>
             </div>
-            <div className="w-full md:w-1/2 xl:w-1/3 lg:px-4">
-              <div className="xs:w-[385px] xs:ml-[-2.5rem] bg-white rounded-lg overflow-hidden mb-10">
+            <div className="w-full xl:w-1/3 md:w-full lg:px-4">
+              <div className=" bg-white rounded-lg overflow-hidden mb-10">
                 <div className="p-8 sm:p-9 md:p-7 xl:p-9">
                   <p className="text-base leading-relaxed mb-7">
                     “It’s a huge relief having the three large oak trees on our
@@ -53,8 +53,8 @@ const LandingPage5 = () => {
                 </div>
               </div>
             </div>
-            <div className="w-full md:w-1/2 xl:w-1/3 lg:px-4">
-              <div className="xs:w-[385px] xs:ml-[-2.5rem] bg-white rounded-lg overflow-hidden mb-10">
+            <div className="w-full xl:w-1/3 md:w-full lg:px-4">
+              <div className=" bg-white rounded-lg overflow-hidden mb-10">
                 <div className="p-8 sm:p-9 md:p-7 xl:p-9">
                   <p className="text-base leading-relaxed mb-7">
                     “We just purchased our first home and inspection failed to

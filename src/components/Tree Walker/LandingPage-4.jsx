@@ -3,29 +3,31 @@ import Rectangle from "../../assets/Images/Rectangle.png";
 
 const LandingPage4 = () => {
   return (
-    <div>
-      <div className="lg:flex">
-        <div className="bg-white lg:w-1/2">
-          <div className="pt-[2rem] px-[1rem] sm:pt-[4rem] lg:pt-[0rem] lg:px-[0rem] lg:w-[460px] lg:h-[300px] lg:relative lg:top-[6rem] lg:left-[10rem]">
-            <img className="w-[100%]" src={Rectangle} />
-          </div>
-        </div>
-        <div>
-          <img className="w-[100%] relative" src={Climber} />
+    <div className="lg:flex">
+      <div className="bg-white lg:w-[50%] xs:w-full">
+        <div className="sm:pt-4 lg:pt-0 lg:pl-0 lg:w-[30rem] lg:h-64 lg:relative lg:top-[6rem] lg:left-[8rem]">
+          <img
+            className="w-full lg:p-[0rem] xs:p-[2rem]"
+            src={Rectangle}
+            alt="Rectangle"
+          />
         </div>
       </div>
-      <div className="relative">
-        <h1 className="absolute xs:top-[-20rem] xs:left-[1rem] xs:text-[28px] sm:top-[-37rem] sm:ml-[1rem] lg:top-[-25rem] lg:left-[43rem] text-[36px] font-bold font-serif">
-          Hi, I’m <span className="text-[#268C76]">TreeWalker 👋 🌳</span>
-        </h1>
-        <p className="absolute xs:top-[-16rem] xs:left-[1rem] xs:mr-[1rem] sm:top-[-31rem] sm:ml-[1rem] sm:text-[30px] lg:text-[18px] lg:top-[-20rem] lg:left-[43rem] font-serif mr-[7rem]">
-          "If you love what you do, you'll never work a day in your life."
-          Whoever said that definitely never had a passion for tree service. Its
-          hard work, but loving it does make it a lot easier.
-        </p>
-        <h6 className="absolute xs:top-[-8rem] xs:left-[1rem] sm:top-[-15rem] sm:ml-[1rem] sm:text-[30px] lg:text-[17px] lg:top-[-14rem] lg:left-[43rem] font-serif mr-[10rem] text-[#64748b]">
-          - Josh Rohmann
-        </h6>
+      <div className=" relative">
+        <img className="xs:w-full" src={Climber} alt="Climber" />
+        <div className="absolute top-1/2 left-[30%] xs:left-[29%] transform -translate-x-[30%] -translate-y-1/2">
+          <h1 className=" text-3xl sm:text-4xl md:text-[4.25rem] md:leading-[4.5rem] lg:text-5xl font-bold font-serif text-green-600">
+            Hi, I’m <span className="text-[#268C76]">TreeWalker 👋 🌳</span>
+          </h1>
+          <p className="mt-4 text-lg sm:text-xl md:text-[2.5rem] md:leading-[2.7rem] lg:text-base text-gray-700 font-serif">
+            "If you love what you do, you'll never work a day in your life."
+            Whoever said that definitely never had a passion for tree service.
+            It's hard work, but loving it does make it a lot easier.
+          </p>
+          <h6 className="mt-4 text-sm sm:text-lg md:text-[2rem] lg:text-base md:leading-[2.75rem] xs:mb-[2rem] lg:mb-[0rem] text-gray-500 font-serif">
+            - Josh Rohmann
+          </h6>
+        </div>
       </div>
     </div>
   );
